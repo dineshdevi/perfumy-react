@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+ul{
+    display: flex;
+    margin-right: 20%;
+}
+li{
+    list-style: none;
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+.searchbar{
+    text-align: center;
+    padding: 30px;
+}
+input{
+    width: 70%;
+    padding: 10px;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    padding: 20px;
+    text-align: center;
+    gap:5px;
+}
+.box{
+    width: 250px;
+    border: solid 2px black;
+    
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
+img{
+    width: 250px;
+}
+.about{
+    text-align: center;
+    margin: 5px;
+}
+.about p{
+    margin: 15px;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.footer p{
+    margin-top: 25px;
+    color: gray;
+}
